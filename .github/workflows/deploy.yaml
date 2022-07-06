@@ -27,8 +27,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: docker-gh
-          environment_name: Dockergh-env-1
+          application_name: docker-dploy
+          environment_name: Dockerdploy-env
           existing_bucket_name: elasticbeanstalk-sa-east-1-356610711425
           region: sa-east-1
           version_label: ${{ github.sha }}
